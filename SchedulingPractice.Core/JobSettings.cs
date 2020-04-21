@@ -15,6 +15,8 @@ namespace SchedulingPractice.Core
         /// 容許最高延遲執行時間 (預計執行 ~ 實際執行時間)
         /// </summary>
         public static readonly TimeSpan MaxDelayTime = TimeSpan.FromSeconds(30);
+
+        public static readonly int LoopDuration = 100;
     }
 
 }

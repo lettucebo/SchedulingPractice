@@ -27,7 +27,7 @@ namespace SchedulingPractice.Core
 
             if (string.IsNullOrEmpty(connstr))
             {
-                this._conn = new SqlConnection(@"Data Source=Fion;Initial Catalog=JobsDB;Integrated Security=True;");
+                this._conn = new SqlConnection(@"Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=JobsDB;Integrated Security=True;");
             }
             else
             {
